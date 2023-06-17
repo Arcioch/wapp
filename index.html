@@ -19,8 +19,26 @@
 
     <section class="weather">
         <h1 class="weather__title">WEATHER APP</h1>
+        <form action="" class="weather__form">
+            <input type="text" class="weather__city" placeholder="Write city name and press ENTER">
+            <div class="weather__gps">
+                <span class="weather__tooltip">Kliknij i pobierz koordyntay</span>
+                <img src="assets/img/gps.svg" alt="">
+            </div>
+        </form>
+        <div class="weather__loader">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="weather__data"></div>
     </section>
 
+
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
